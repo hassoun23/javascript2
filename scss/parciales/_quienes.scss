@@ -1,0 +1,146 @@
+//@import "./variables";
+
+
+
+
+.quien__imagen {
+    width: 10px;
+    margin-left: 20rem;
+    display: inline-block;
+}
+
+.quienes__img {
+    width: 300px;
+    
+}
+
+.quienes__somos--derecha{
+
+    display: inline-block;
+    margin-left: 19rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    position: absolute;
+    top: 23rem;
+    font-family: $fontfamily;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 32px;
+    color: map-get($colortexto , "quienessomos" );
+    
+}
+
+.quienes__somos--abajo{
+    font-family: $fontfamily;
+    font-size: 1.5rem;
+    line-height: 32px;
+    margin-left: 20rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    color: map-get($colortexto , "quienessomos" );
+    
+   
+}
+
+
+.quienes__somos {
+    font-family:$fontfamily;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem;
+}
+
+
+.imagen__personal{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5rem;
+  
+  
+}
+
+.nombre__personal{
+ padding: 1.5rem;
+ margin-left: 1rem;
+ margin-bottom: 2rem;
+ flex-direction: row;
+
+ &--nombre{
+   margin-bottom: 0.3rem;
+   @include font(1.5rem,bold);
+ }
+
+ &--cargo{
+   margin-top: rem;
+   @include font(1.5rem,normal);
+ }
+}
+
+
+.card__personal{
+  height: 42%;
+  background-color: rgba(252, 175, 32, 0.253);
+  margin-left: 15rem;
+  flex-direction: row;
+}
+
+.row__personal{
+  margin-bottom: 0;
+}
+
+.contenedor__personal{
+  flex-direction: row;
+}
+
+@media screen and (max-width:425px){
+
+    .quien__imagen {
+        margin-left: 6rem;
+      }
+      .quienes__img {
+        width: 200px;
+      }
+      .quienes__somos--derecha {
+        margin-left: 1rem;
+        margin-top: 20rem;
+        margin-bottom: 15rem;
+        margin-right: 2rem;
+        display: block;
+        text-align: center;
+      }
+      .quienes__somos--abajo {
+        margin-left: 1rem;
+        margin-top: 63rem;
+        margin-right: 2rem;
+        text-align: center;
+      }
+    
+
+    .contenedor__personal{
+      flex-direction: column;
+    }
+
+    .card__personal{
+      height: 70%;
+      
+      margin-left: 0;
+     
+    }
+
+   .personal{
+     display: inline-block;
+
+     
+
+   }
+
+   .nombre__personal{
+     
+     padding: 1.5rem;
+     margin-left: 1rem;
+     margin-bottom: 2rem;
+   }
+
+  }

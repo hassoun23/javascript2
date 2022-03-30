@@ -1,0 +1,17 @@
+// @import url(/assets/Montserrat\ Fuente/Montserrat);
+// @import "../../assets/Montserrat\ Fuente/M";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body{
+    width: 100%;
+}
+$fontfamily: 'Montserrat', sans-serif;
+$colormarcas:#ffbf75;
+
+@mixin font($size,$fontweight) {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: $size;
+    font-weight: $fontweight;
+}
+
+
+$colortexto: ("productos":black,"quienessomos":rgb(87, 84, 84),"titulos":rgb(238, 223, 15));

@@ -1,0 +1,110 @@
+//@import "./variables";
+
+.nav-item{
+    font-family: $fontfamily;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    
+}
+  
+
+
+
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    
+}
+    
+    
+    
+
+
+.carousel__contenedor{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+
+
+.marcas{
+    background-color: $colormarcas;
+  
+    
+}
+
+
+
+.card__lumilagro{
+    height: 80%;
+    
+    
+
+    &--img{
+        display: flex;
+        position: relative;
+        top: 5rem;
+        
+    }
+
+}
+
+
+
+.titulo__slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+
+    &--primero{
+        
+        position: absolute; 
+        bottom: 8rem;
+        font-family: $fontfamily;
+        font-weight: bold;
+        color: map-get($colortexto,"titulos" );
+
+    }
+    &--segundo{
+        @extend .titulo__slide--primero;
+        
+    }
+
+    &--tercero{
+        
+        @extend .titulo__slide--primero;
+    }
+}
+
+
+@media screen and (max-width:425px){
+
+    .card__lumilagro{
+        height: 90% ;
+        margin-bottom: 18rem !important;
+        margin-top: 1rem;
+        
+    
+        &--img{
+            display: flex;
+            
+            position: relative;
+            top: 5rem;
+            
+        }
+    
+    }
+
+}

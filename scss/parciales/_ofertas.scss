@@ -1,0 +1,74 @@
+//@import "./variables";
+
+.page-breadcrumb{
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+    display: flex;
+   justify-content:start;
+
+}
+
+.portada__ofertas{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.portadaimg__ofertas{
+    width: 300px;
+}
+
+.title__ofertas--primero{
+    position: relative;
+    top: 2rem;
+    @include font(2.5rem,bold);
+    text-align: center;
+
+    
+}
+
+.title__ofertas--segundo{
+    position: relative;
+    top: 2rem;
+    @include font(1.5rem,light);
+    
+
+}
+
+
+
+@media screen and (max-width:425px){
+    .portada__ofertas{
+        background-color: #f0f0f0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    
+    
+    .portadaimg__ofertas{
+        width: 250px;
+    }
+    
+    .title__ofertas--primero{
+        position: relative;
+        top: 2rem;
+        @include font(2rem,bold);
+        text-align: center;
+    
+        
+    }
+    
+    .title__ofertas--segundo{
+        position: relative;
+        top: 2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        @include font(1rem,light);
+        
+    
+    }
+
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Distribuidora mayorista de artículos para Kioscos. Entregamos en todo el país. Consulta nuestros precios, novedades y productos destacados."">
+    <meta name="keywords" content="distribuidora mayorista">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/LOGO__FAVICON.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ead0ae6dff.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
+    
+    
+    <title>Distribuidora Realstock | Mayorista de Artículos para Kioscos </title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ffa43a;" >
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="# "> <img src="./assets/LOGO.png" alt="" width="200px"></a>
+              
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ol class="navbar-nav bread">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="pages/Productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #525558;">
+                    <li><a class="dropdown-item" href="#">Apositos</a></li>
+                    <li><a class="dropdown-item" href="#">Pegamentos</a></li>
+                    <li><a class="dropdown-item" href="#">Encendedores</a></li>
+                    <li><a class="dropdown-item" href="#">Filos</a></li>
+                    <li><a class="dropdown-item" href="#">Fosforos</a></li>
+                    <li><a class="dropdown-item" href="#">Insecticidas</a></li>
+                  </ul>
+                </li>
+              </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/Ofertas.html">Ofertas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/Quienes-somos.html">Quienes somos</a>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="pages/Contacto.html">Contacto</a>
+                    </li>
+                  </ol>
+                  
+                  <div class="contenedorcarrito">
+                    <a href="./pages/Carrito.html" id="btnCarrito">
+                      <i class="fas fa-shopping-cart" aria-hidden="true" id="btnCarrito"></i><span id="badgeCarrito" class="w3-badge">0</span>
+                      
+                    </a>
+                    
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      
+      <!------ COMIENZO SLIDER IMAGENES HEADER------->
+      
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel__contenedor " data-bs-interval="3000" style="background-image: url(assets/slider1.jpg);">
+            <div class="container">
+              
+              <div class="carousel-caption titulo__slide" >
+                <h5 class="display-1 titulo__slide--primero"data-aos="fade-right"  data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="false"
+                data-aos-once="false">Mayorista de Artículos de Kioscos y varios</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel__contenedor" data-bs-interval="3000" style="background-image: url(assets/slider2.jpg);">
+                  
+            <div class="carousel-caption titulo__slide">
+              <h5 class="display-1 titulo__slide--segundo" data-aos="fade-right" data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="false"
+              data-aos-once="false">Entregamos a todo el País</h5>
+              
+            </div>
+                </div>
+                <div class="carousel-item carousel__contenedor" data-bs-interval="3000" style="background-image: url(assets/slider3.jpg);">
+                  
+                  <div class="carousel-caption titulo__slide">
+                    <h5 class="display-1 titulo__slide--tercero" data-aos="fade-right" data-aos-offset="200"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="false"
+                    data-aos-once="false">Los Mejores Precios</h5>
+                    
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+        <!------ FIN SLIDE IMAGENES HEADER ------->
+        
+        <!-------- COMIENZO SECCION MARCAS ------>
+        <div class="container mt-5 pt-5 pb-2 text-center">
+          
+    </div>
+    
+    <div class="carousel slide marcas" id="demo" data-bs-ride="carousel">
+    
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active bg-dark "></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="bg-dark "></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="bg-dark "></button>
+      </div>
+      
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          
+          <div class="container mt-4 d-block w-100">
+            <div class="row">
+              <div class="col-md-3 mt-lg-0">
+                <div class="card">
+                  <img class="card-img-top p-2" src="assets/LOGODURACELL.png">
+                  <div class="card-body">
+                                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-lg-0 mt-3">
+                <div class="card">
+                  <img class="card-img-top p-1" src="assets/LOGOPRIME.png">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-lg-0 mt-3">
+                <div class="card">
+                  <img class="card-img-top p-1" src="assets/LOGOREXONA.png">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mt-lg-0 mt-3">
+                <div class="card">
+                  <img class="card-img-top p-1" src="assets/logos_gillette.png">
+                  <div class="card-body">
+                                  
+                  </div>
+                  
+                </div>
+              </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="container mt-4 d-block w-100">
+                  <div class="row">
+                    <div class="col-md-3 mt-lg-0">
+                      <div class="card card__lumilagro">
+                        <img class="card-img card__lumilagro--img" src="assets/lumilagro.png">
+                        
+                        
+                        
+                      </div>
+                    </div>
+                    <div class="col-md-3 mt-lg-0 mt-3">
+                      <div class="card">
+                        <img class="card-img-top p-1" src="assets/LOGODURACELL.png">
+                        <div class="card-body">
+                                   
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 mt-lg-0 mt-3">
+                            <div class="card">
+                              <img class="card-img-top p-2" src="assets/LOGOPRIME.png">
+                              <div class="card-body">
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3 mt-lg-0 mt-3">
+                            <div class="card">
+                              <img class="card-img-top p-1" src="assets/LOGOREXONA.png">
+                              <div class="card-body">
+                                
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="container mt-4 d-block w-100">
+                      <div class="row">
+                        <div class="col-md-3 mt-lg-0">
+                                <div class="card">
+                                  <img class="card-img-top p-2" src="assets/logos_gillette.png">
+                                  <div class="card-body">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3 mt-lg-0 mt-3">
+                                <div class="card card__lumilagro">
+                                  <img class="card-img-top card__lumilagro--img" src="assets/lumilagro.png">
+                                   
+                                </div>
+                              </div>
+                              <div class="col-md-3 mt-lg-0 mt-3">
+                                <div class="card">
+                                  <img class="card-img-top p-1" src="assets/LOGODURACELL.png">
+                                  <div class="card-body">
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="col-md-3 mt-lg-0 mt-3">
+                              <div class="card">
+                                <img class="card-img-top p-1" src="assets/LOGOPRIME.png">
+                                <div class="card-body">
+                                  
+                                </div>
+                                
+                                </div>
+                              </div>
+                            </div>
+                    </div>
+             </div>
+        </div>
+        
+        <button class="carousel-control-prev d-flex justify-content-start btn__marcas--prev" id="btnslidone" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" id="mostslid"></span>
+        </button>
+        <button class="carousel-control-next d-flex justify-content-end btn__marcas--next" id="btnslidtwo" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" id="mostslid"></span>
+        </button>
+    
+      </div>
+             <!-------FIN SECCION MARCAS------->
+
+             <!-----COMIENZO PRODUCTOS DESTACACOS------>
+             
+             <h2 class="productos__destacados">PRODUCTOS DESTACADOS</h2>
+             
+             <div class="container mt-5 card__productos">
+               <div class="row contenedorTienda " id="contenedorTienda" >
+                 
+                 
+              </div>
+              
+            </div>
+            
+            <!--------- FIN PRODUCTOS DESTACADOS ------->
+            
+
+
+
+          </main>
+          <footer class="footer">
+            <a href="index.html"><img src="assets/LOGO.png" alt="" style="width: 200px; height: 100px;"></a>
+            <div class="footer__conacto">
+              <div>Contacto</div>
+            <p>Telefono: +5491162929936</p>
+            <p>Direccion: San blas 2244</p>
+            <p>Email: Distribuidorarealstock@gmail.com</p>
+            
+          </div>
+          <div class="footer__redes">
+            <div>Seguinos en nuestras redes</div>
+            <div class="footer__iconos">
+              <a href="https://www.instagram.com/"><img src="assets/Instagram_icono.png" alt=""></a>
+              <a href="https://www.facebook.com/"><img src="assets/facebookicono.png" alt=""></a>
+            </div>
+            
+          </div>
+          
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./js/carrito.js" async></script>
+        <!-- <script src="./js/mostrarcarrito.js" async></script> -->
+        
+        <script>
+          AOS.init();
+          </script>
+
+</body>
+</html>

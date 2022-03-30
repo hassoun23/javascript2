@@ -1,0 +1,201 @@
+
+
+
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.dropdown-item{
+    color: white;
+}
+.carousel-item{
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.marcas{
+    background-color: #ffbf75;
+  
+    
+}
+
+.fa-shopping-cart{
+    color: #525558;
+    font-size: 2rem;
+  }
+
+
+
+
+.productos__destacados{
+    text-align : center;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+}
+
+.card{
+    margin-top : 3rem;
+    margin-bottom: 2rem;
+    transform: translateY(0px);
+    transition: 1.1s all;
+}
+
+.card:hover{
+box-shadow: 6px 6px 40px 10px  rgb(0, 0, 0,0.3) ;
+transform: translateY(-20px)
+}
+
+.categorias{
+    display: flex;
+    width: 100%;
+}
+
+.contenedor__productos{
+    display: flex;
+    width: 100%;
+}
+
+.nav__productos{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: relative;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+.card__productos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem;
+    width: 80%;
+}
+
+.quienes__somos {
+    font-family:'Monserrat', sans-serif; 
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem;
+
+}
+
+.quien__imagen {
+    width: 10px;
+    margin-left: 20rem;
+    display: inline-block;
+}
+
+.quienes__img {
+    width: 300px;
+    
+}
+
+.quienes__somos--derecha{
+
+    display: inline-block;
+    margin-left: 19rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    position: absolute;
+    top: 17rem;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 22px;
+    
+}
+
+.quienes__somos--abajo{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 22px;
+    margin-left: 20rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+   
+}
+
+.footer{
+    background-color: #525558;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px 20px 60px;;
+}
+.footer img{
+    vertical-align: middle;
+
+}
+
+.footer__redes{
+    align-self: flex-start;
+}
+
+.footer__iconos{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.col{
+    margin: 0;
+    padding: 2rem;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:425px){
+
+    .quien__imagen{
+        margin-left: 9rem;
+    }
+    
+    .quienes__img {
+        width: 200px;
+        
+    }
+    
+    .quienes__somos--derecha {
+        margin-left: 1rem;
+        margin-top: 20rem;
+        margin-right: 2rem;
+        display: block;
+        text-align: center;
+    }
+    
+    .quienes__somos--abajo {
+    
+        margin-left: 1rem;
+        margin-top: 60rem;
+        margin-right: 2rem;
+        text-align: center;
+    }
+}
+
+
+
+
+
+    

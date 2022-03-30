@@ -1,0 +1,28 @@
+//@import "./variables";
+
+
+.footer{
+    background-color: #525558;
+    color: white;
+    font-family: $fontfamily;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px 20px 60px;
+         img{
+            vertical-align: middle;
+        }
+            &__redes{
+                align-self: flex-start;
+            }
+                &__iconos{
+                    margin: 1rem;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+
+    }
+
+
