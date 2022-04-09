@@ -254,5 +254,7 @@ body {
     display: flex;
     justify-content: space-evenly; }
 
-
-    
+.list-group{ 
+      display: flex;
+      justify-content: space-between;
+    }
