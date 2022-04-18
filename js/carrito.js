@@ -12,6 +12,8 @@ const domItems = document.getElementById('items');
 const domCarrito = document.getElementById('carrito');
 const domTotal = document.getElementById('total');
 const domBotonVaciar = document.getElementById('boton-vaciar');
+const botonFinalizar = document.getElementById('boton-finalizar');
+
 
 
 fetch('js/productos.json')

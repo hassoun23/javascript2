@@ -2,6 +2,7 @@ const listaCarrito = document.getElementById("listaCarrito");
 const domCarrito = document.getElementById("carrito");
 const domTotal = document.getElementById("total");
 const clearBtn = document.getElementById("boton-vaciar");
+const botonFinalizar = document.getElementById('boton-finalizar');
 const sumaTotal = () => {
   const carrito = JSON.parse(localStorage.getItem("carrito"));
   if (carrito != undefined) {
@@ -61,7 +62,8 @@ function renderizarCarrito() {
     botonBorrar.onclick = () => {
     productosNuevo = carrito.filter( (p) => p.nombre !== producto.nombre );
     localStorage.setItem("carrito", JSON.stringify(productosNuevo));
-
+    
+    
       renderizarCarrito();
     }};
   sumaTotal();
@@ -73,3 +75,14 @@ clearBtn.addEventListener("click", (e) => {
   localStorage.clear();
   renderizarCarrito();
 });
+
+
+
+
+botonFinalizar.onclick = () => {
+  if (carrito.length <= 0){
+    Swal.fire('El carrito esta vacio')
+
+  }else{
+  Swal.fire('Su compra ha sido realizada')
+}}
