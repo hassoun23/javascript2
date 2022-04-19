@@ -80,6 +80,7 @@ clearBtn.addEventListener("click", (e) => {
 
 
 botonFinalizar.onclick = () => {
+  const carrito = JSON.parse(localStorage.getItem("carrito"));
   if (carrito.length <= 0){
     Swal.fire('El carrito esta vacio')
 
